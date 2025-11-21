@@ -80,3 +80,5 @@ let tuple2: [number, string] = [10, 'hello'];
   
   이 모든 값을 허용할 수 있는 타입은? 
 */
+let tuple3: [boolean, string, ...number[]] = [true, 'good' , 1, 2, 3]
+let tuple4: [boolean, string, ...unknown[]] = [true, 'good' , 1, 2, 3, 'ㅋㅋㅋ'];
